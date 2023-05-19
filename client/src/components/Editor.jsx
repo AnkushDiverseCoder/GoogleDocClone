@@ -45,7 +45,7 @@ const Editor = () => {
   }, []);
 
   useEffect(() => {
-    const socket = io('')
+    const socket = io('https://googledocs-1f11.onrender.com')
     setSocket(socket);
     return () => {
       socket.disconnect();

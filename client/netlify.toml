@@ -1,4 +1,4 @@
 [[redirects]]
 from ="/docs/*"
-to="/docs/:id"
+to="/docs/*"
 status = 200

@@ -4,5 +4,5 @@
   status = 200
 
 [[redirects]]
-from ="/docs/*"
-to="/docs/:splat"
+from ="/docs/:id"
+to="/docs/:id"

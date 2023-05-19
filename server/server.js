@@ -23,7 +23,7 @@ httpServer.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
 const io = new Server(httpServer,
     {
         cors: {
-            origin: "https://googledocs-1f11.onrender.com",
+            origin: "*",
             methods: ["GET", "POST"]
         }
     });

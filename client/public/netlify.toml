@@ -1,9 +1,8 @@
-
-[[redirects]]
-from ="/docs/*"
-to="/docs/:splat"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+from ="/docs/*"
+to="/docs/:splat"

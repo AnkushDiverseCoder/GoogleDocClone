@@ -15,6 +15,10 @@ Connection();
 const httpServer = createServer(app);
 httpServer.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
 
+httpServer.get('/', (req, res) => {
+    res.send('API is running...');
+});
+
 const io = new Server(httpServer);
 
 io.on('connection', (socket) => {    

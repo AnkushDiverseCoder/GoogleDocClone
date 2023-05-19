@@ -1,3 +1,13 @@
+[build]
+  base = "client"
+  publish = "client/dist"
+  command = "yarn build"
+
 [[redirects]]
 from ="/docs/*"
 to="/docs/:splat"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
